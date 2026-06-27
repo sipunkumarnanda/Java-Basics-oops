@@ -48,6 +48,7 @@ class CurrentAccount extends BankAccount {
 
     double minimumLimit = 1000.00;
 
+    // constructor to initialize balance 
     public CurrentAccount(double balance){
         this.balance = balance;
     }
@@ -57,7 +58,7 @@ class CurrentAccount extends BankAccount {
     }
 
     public void canUserWithdrawMoney(double amount){
-        if(amount >= minimumLimit && amount <= balance){
+        if(super.getBalance() - amount >= minimumLimit){
             System.out.println("can withdraw");
         }else{
             System.out.println("can not withdraw");
@@ -79,7 +80,7 @@ public class Abstraction {
 
         CurrentAccount person2 = new CurrentAccount(1000);
         System.out.println("Balance: " + person2.getBalance());
-        person2.addMoney(50);
+        person2.addMoney(5000);
         System.out.println("Updated Balance: " + person2.getBalance());
         person2.canUserWithdrawMoney(1000);
     }

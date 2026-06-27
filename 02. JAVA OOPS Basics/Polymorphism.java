@@ -19,6 +19,7 @@ class Vehicle {
     }
 }
 
+
 // Derived class (Child class)
 class Car extends Vehicle {
 
@@ -33,6 +34,16 @@ class Car extends Vehicle {
         System.out.println("Give me way honk honk honk !!!!!!");
     }
 }
+
+
+
+class Bus extends Vehicle {
+    public Bus(String numberOfVehicle){
+        super(numberOfVehicle);
+    }
+}
+
+
 
 class Polymorphism {
     public static void main(String[] args) {

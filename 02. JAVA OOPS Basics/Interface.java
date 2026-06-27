@@ -47,5 +47,9 @@ public class Interface {
         Cat c1 = new Cat();
         c1.bark();
         c1.sleep();
+
+        Animal a ;
+        a = new Dog();
+        ((Dog)a).ownerName();
     }
 }

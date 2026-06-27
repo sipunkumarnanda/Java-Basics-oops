@@ -24,6 +24,7 @@ class BankAccount {
         this.accountType = accountType;
     }
 
+
     // Setter method
     public void setBalance(double balance) {
         this.balance = balance;
@@ -37,6 +38,7 @@ class BankAccount {
 
         return this.balance;
     }
+
 
     // Optional helper method
     public void displayBalance() {

@@ -74,5 +74,10 @@ public class ClassesAndObjects {
         // calling private object
         int result = sum(10, 20);
         System.out.println("Sum is : " + result);
+
+        // calling protected summ
+        Sum z = new Sum();
+        int ans = z.summ(10, 20);
+        System.out.println("summ is : "+ans);
     }
 }

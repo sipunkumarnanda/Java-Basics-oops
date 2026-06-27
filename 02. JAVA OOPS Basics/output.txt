@@ -1,4 +1,7 @@
-Vehicle Number : OD01A1234
-Honk!!!!!!!
-Vehicle Number : OD02A1234
-Honk!!!!!!!
+Balance: 100.0
+Updated Balance: 150.0
+Can not withdraw
+---------------------------
+Balance: 1000.0
+Updated Balance: 6000.0
+can withdraw
